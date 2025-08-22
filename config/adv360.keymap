@@ -129,11 +129,11 @@
 
         league {
             bindings = <
-&trans      &trans        &trans        &trans  &trans  &trans  &trans                                           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp N3  &kp N4  &kp T   &trans                                           &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB     &kp Q         &kp W         &kp E   &kp R   &kp Z   &trans     &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp GRAVE   &kp H         &kp P         &kp D   &kp F   &kp B                        &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans        &trans        &trans  &trans          &kp SPACE  &kp LALT  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans            &trans  &trans                                           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp N3        &kp N4            &kp T   &trans                                           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB     &kp Q         &kp W         &kp E         &kp R             &kp U   &trans     &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE   &kp H         &kp P         &kp D         &kp F             &kp B                        &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp LC(NUMBER_6)          &kp SPACE  &kp LALT  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
