@@ -63,6 +63,7 @@
             key-positions = <31 16>;
             timeout-ms = <100>;
             require-prior-idle-ms = <300>;
+            layers = <4>;
         };
 
         db {
@@ -70,6 +71,7 @@
             key-positions = <31 51>;
             timeout-ms = <100>;
             require-prior-idle-ms = <300>;
+            layers = <4>;
         };
     };
 
