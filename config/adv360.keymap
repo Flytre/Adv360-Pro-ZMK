@@ -91,11 +91,11 @@
 
         symbol_layer {
             bindings = <
-&trans  &trans           &trans            &trans          &trans           &trans             &trans                                      &trans  &trans      &trans          &trans                &trans                 &trans      &trans
-&trans  &trans           &kp LESS_THAN     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET   &trans                                      &trans  &kp DOLLAR  &kp PIPE        &kp TAB               &kp AMPERSAND          &trans      &trans
-&trans  &kp KP_NUMBER_0  &kp GREATER_THAN  &kp ASTERISK    &kp MINUS        &kp RIGHT_BRACKET  &trans  &trans  &trans      &trans  &trans  &trans  &kp EQUAL   &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERIOD  &trans
-&trans  &trans           &kp EXCLAMATION   &kp CARET       &kp TILDE        &kp KP_NUMBER_1                    &trans      &trans                  &kp HASH    &kp PLUS        &kp QUESTION          &kp SLASH              &trans      &trans
-&trans  &trans           &trans            &trans          &trans                              &trans  &trans  &trans      &trans  &trans  &trans              &trans          &trans                &trans                 &trans      &trans
+&trans  &trans    &trans           &trans        &trans       &trans           &trans                                      &trans  &trans      &trans          &trans                &trans                 &trans      &trans
+&trans  &trans    &kp AMPERSAND    &kp QUESTION  &kp PERCENT  &none            &trans                                      &trans  &kp DOLLAR  &kp PIPE        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans      &trans
+&trans  &kp PLUS  &kp MINUS        &kp ASTERISK  &kp SLASH    &kp KP_N0        &trans  &trans  &trans      &trans  &trans  &trans  &kp EQUAL   &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERIOD  &trans
+&trans  &trans    &kp EXCLAMATION  &kp CARET     &kp TILDE    &kp KP_NUMBER_1                  &trans      &trans                  &none       &kp HASH        &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans      &trans
+&trans  &trans    &trans           &trans        &trans                        &trans  &trans  &trans      &trans  &trans  &trans              &trans          &trans                &trans                 &trans      &trans
             >;
         };
 
